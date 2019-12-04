@@ -1,14 +1,15 @@
 import React from "react";
 import { Tween, Timeline } from "react-gsap";
 
-const TimelineComponent = props => (
+const Animation1 = props => (
   <div>
     <Tween from={{ x: "-100%" }} to={{ x: "0%" }} duration={1} ease="easeOut">
       <div
         style={{
-          backgroundImage: "linear-gradient(to bottom right, #fffdf9, #ffe3ed)",
+          backgroundImage: "linear-gradient(to bottom right, #ffe3ed, #fffdf9)",
           width: "100%",
-          height: "500px"
+          height: "500px",
+          overflow: "hidden"
         }}
       >
         <Timeline
@@ -30,7 +31,7 @@ const TimelineComponent = props => (
             ></div>
           }
         >
-          <Tween duration={3.5} />
+          <Tween duration={2} />
           <Tween
             to={{
               width: "70%",
@@ -51,17 +52,16 @@ const TimelineComponent = props => (
                 backgroundImage:
                   "linear-gradient(to bottom right, #9be3de, #beebe9)",
                 marginLeft: "auto",
-                marginRight: "auto",
-                marginTop: "0",
-                marginBottom: "0"
+                marginRight: "auto"
               }}
             ></div>
           }
         >
-          <Tween from={{ x: "250%" }} to={{ x: "0%" }} duration={3} />
+          <Tween from={{ x: "200%" }} to={{ x: "100%" }} duration={1} />
+          <Tween to={{ x: "0%" }} duration={1} ease="easeOut" />
           <Tween
             to={{ width: "80%", height: "80%", top: "10%" }}
-            duration={0.5}
+            duration={1}
             ease="easeIN"
           />
         </Timeline>
@@ -70,4 +70,4 @@ const TimelineComponent = props => (
   </div>
 );
 
-export default TimelineComponent;
+export default Animation1;
