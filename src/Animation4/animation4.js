@@ -29,10 +29,11 @@ const Animation4 = props => (
       }
       repeat={-1}
     >
-      <Tween to={{ y: "-25px" }} />
+      <Tween duration={0.05} to={{ y: "-25px" }} />
       <Tween duration={1.5} ease="Expo.easeIn" to={{ y: "450px" }} />
-      <Tween duration={0.75} ease="Expo.easeOut" to={{ y: "300px" }} />
-      <Tween duration={0.65} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.6} ease="Expo.easeOut" to={{ y: "300px" }} />
+      <Tween duration={0.6} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.45} />
     </Timeline>
     <Timeline
       target={
@@ -51,10 +52,11 @@ const Animation4 = props => (
       }
       repeat={-1}
     >
-      <Tween to={{ y: "-25px" }} />
+      <Tween duration={0.1} to={{ y: "-25px" }} />
       <Tween duration={1.5} ease="Expo.easeIn" to={{ y: "450px" }} />
-      <Tween duration={0.75} ease="Expo.easeOut" to={{ y: "300px" }} />
-      <Tween duration={0.65} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.6} ease="Expo.easeOut" to={{ y: "300px" }} />
+      <Tween duration={0.6} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.4} />
     </Timeline>
     <Timeline
       target={
@@ -72,10 +74,11 @@ const Animation4 = props => (
       }
       repeat={-1}
     >
-      <Tween to={{ y: "-25px" }} />
+      <Tween duration={0.15} to={{ y: "-25px" }} />
       <Tween duration={1.5} ease="Expo.easeIn" to={{ y: "450px" }} />
-      <Tween duration={0.75} ease="Expo.easeOut" to={{ y: "300px" }} />
-      <Tween duration={0.65} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.6} ease="Expo.easeOut" to={{ y: "300px" }} />
+      <Tween duration={0.6} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.35} />
     </Timeline>
     <Timeline
       target={
@@ -93,10 +96,11 @@ const Animation4 = props => (
       }
       repeat={-1}
     >
-      <Tween to={{ y: "-25px" }} />
+      <Tween duration={0.2} to={{ y: "-25px" }} />
       <Tween duration={1.5} ease="Expo.easeIn" to={{ y: "450px" }} />
-      <Tween duration={0.75} ease="Expo.easeOut" to={{ y: "300px" }} />
-      <Tween duration={0.65} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.6} ease="Expo.easeOut" to={{ y: "300px" }} />
+      <Tween duration={0.6} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.3} />
     </Timeline>
     <Timeline
       target={
@@ -114,10 +118,11 @@ const Animation4 = props => (
       }
       repeat={-1}
     >
-      <Tween to={{ y: "-25px" }} />
+      <Tween duration={0.25} to={{ y: "-25px" }} />
       <Tween duration={1.5} ease="Expo.easeIn" to={{ y: "450px" }} />
-      <Tween duration={0.75} ease="Expo.easeOut" to={{ y: "300px" }} />
-      <Tween duration={0.65} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.6} ease="Expo.easeOut" to={{ y: "300px" }} />
+      <Tween duration={0.6} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.25} />
     </Timeline>
     <Timeline
       target={
@@ -135,10 +140,11 @@ const Animation4 = props => (
       }
       repeat={-1}
     >
-      <Tween to={{ y: "-25px" }} />
+      <Tween duration={0.3} to={{ y: "-25px" }} />
       <Tween duration={1.5} ease="Expo.easeIn" to={{ y: "450px" }} />
-      <Tween duration={0.75} ease="Expo.easeOut" to={{ y: "300px" }} />
-      <Tween duration={0.65} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.6} ease="Expo.easeOut" to={{ y: "300px" }} />
+      <Tween duration={0.6} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.2} />
     </Timeline>
     <Timeline
       target={
@@ -156,10 +162,11 @@ const Animation4 = props => (
       }
       repeat={-1}
     >
-      <Tween to={{ y: "-25px" }} />
+      <Tween duration={0.35} to={{ y: "-25px" }} />
       <Tween duration={1.5} ease="Expo.easeIn" to={{ y: "450px" }} />
-      <Tween duration={0.75} ease="Expo.easeOut" to={{ y: "300px" }} />
-      <Tween duration={0.65} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.6} ease="Expo.easeOut" to={{ y: "300px" }} />
+      <Tween duration={0.6} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.15} />
     </Timeline>
     <Timeline
       target={
@@ -177,10 +184,11 @@ const Animation4 = props => (
       }
       repeat={-1}
     >
-      <Tween to={{ y: "-25px" }} />
+      <Tween duration={0.4} to={{ y: "-25px" }} />
       <Tween duration={1.5} ease="Expo.easeIn" to={{ y: "450px" }} />
-      <Tween duration={0.75} ease="Expo.easeOut" to={{ y: "300px" }} />
-      <Tween duration={0.65} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.6} ease="Expo.easeOut" to={{ y: "300px" }} />
+      <Tween duration={0.6} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.1} />
     </Timeline>
     <Timeline
       target={
@@ -198,10 +206,11 @@ const Animation4 = props => (
       }
       repeat={-1}
     >
-      <Tween to={{ y: "-25px" }} />
+      <Tween duration={0.45} to={{ y: "-25px" }} />
       <Tween duration={1.5} ease="Expo.easeIn" to={{ y: "450px" }} />
-      <Tween duration={0.75} ease="Expo.easeOut" to={{ y: "300px" }} />
-      <Tween duration={0.65} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.6} ease="Expo.easeOut" to={{ y: "300px" }} />
+      <Tween duration={0.6} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.05} />
     </Timeline>
     <Timeline
       target={
@@ -219,10 +228,10 @@ const Animation4 = props => (
       }
       repeat={-1}
     >
-      <Tween to={{ y: "-25px" }} />
+      <Tween duration={0.5} to={{ y: "-25px" }} />
       <Tween duration={1.5} ease="Expo.easeIn" to={{ y: "450px" }} />
-      <Tween duration={0.75} ease="Expo.easeOut" to={{ y: "300px" }} />
-      <Tween duration={0.65} ease="Expo.easeIn" to={{ y: "500px" }} />
+      <Tween duration={0.6} ease="Expo.easeOut" to={{ y: "300px" }} />
+      <Tween duration={0.6} ease="Expo.easeIn" to={{ y: "500px" }} />
     </Timeline>
   </div>
 );
