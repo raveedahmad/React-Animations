@@ -37,8 +37,10 @@ const Animation2 = props => (
             }}
           ></div>
         }
+        repeat={-1}
       >
-        <Tween duration={2} ease="linear" repeat={-1} to={{ x: "500px" }} />
+        <Tween duration={2} ease="linear" to={{ x: "475px" }} />
+        <Tween duration={2} ease="linear" to={{ x: "0px" }} />
       </Timeline>
     </div>
   </div>
